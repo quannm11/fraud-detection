@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+catboost
+mlflow
+fastapi
+uvicorn
+pydantic
+shap
+pytest
+requests
+kaggle
+pyarrow
+fastparquet
