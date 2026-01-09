@@ -37,7 +37,7 @@ def data_loader():
 
 def load_data() -> pd.DataFrame:
     if not os.path.exists(PARQUET_PATH):
-        download_and_convert()
+        data_loader()
     
     logger.info(f"Loading data from {PARQUET_PATH}...")
     df = pd.read_parquet(PARQUET_PATH)
